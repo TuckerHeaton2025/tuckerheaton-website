@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" value="contact tucker heaton, contact heaton, tucker contact, tucker heaton contact, Tucker Heaton Contact, Contact Tucker Heaton">
+    <meta name="description" value="Contact Tucker Heaton by filling out the form, we will be sure to reply to you soon!">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>contact</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/">homepage</a></li>
+                <li><a href="pdf-list.html">pdf articles</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="https://api.web3forms.com/submit" method="POST" id="form">    
+        <input type="hidden" name="access_key" value="5dbf3dd0-ef04-436e-8fb0-77dea8fef081"> 
+        <input required name="name" type="text" class="feedback-input" placeholder="Name" minlength="4" maxlength="30"/>   
+        <input required name="email" type="email" class="feedback-input" placeholder="Email" minlength="4" maxlength="40"/>
+        <textarea required name="text" class="feedback-input" placeholder="Comment" minlength="20" maxlength="200"></textarea>
+        <input type="hidden" name="redirect" value="https://www.tuckerheaton.com">
+        <input type="submit" value="SUBMIT"/>
+        <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
+    </form>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="/js/hcaptcha.js"></script>
+</body>
+</html>

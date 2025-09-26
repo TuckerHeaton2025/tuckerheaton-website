@@ -1,0 +1,41 @@
+*{
+    font-family: consolas, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar a{
+    color: #5555d9;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 20px;
+}
+.navbar a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    background-color: #151515;
+}
+.navbar li{
+    display: inline;
+}
+@media(max-width: 432px){
+    .navbar li{
+        display: block;
+        padding-top: 20px;
+    }
+    
+
+}
