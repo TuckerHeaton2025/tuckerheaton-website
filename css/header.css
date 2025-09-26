@@ -1,5 +1,9 @@
+@font-face {
+    font-family: SpaceMono;
+    src: url('/fonts/SpaceMono-Regular.ttf');
+}
 *{
-    font-family: consolas, Arial, Helvetica, sans-serif;
+    font-family: SpaceMono, consolas, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
